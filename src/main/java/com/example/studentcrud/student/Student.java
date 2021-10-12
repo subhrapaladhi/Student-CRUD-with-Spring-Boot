@@ -48,15 +48,9 @@ public class Student {
     this.id = id;
   }
 
-  public String getName() {
-    System.out.println("getting name");
-    return name;
-  }
+  public String getName() { return name; }
 
-  public void setName(String name) {
-    System.out.println("setting name");
-    this.name = name;
-  }
+  public void setName(String name) { this.name = name; }
 
   public String getEmail() {
     return email;
